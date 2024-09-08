@@ -12,6 +12,14 @@ body {
   align-items: center;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
 #box {
   width: 600px;
   height: 600px;
@@ -35,4 +43,14 @@ button {
   cursor: pointer;
   font-family: "Bebas Neue";
   font-size: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    padding: 30px;
+  }
+  main #text {
+    font-size: 45px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
