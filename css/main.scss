@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 600px;
+    height: 600px;
+    background-color: #8b2323; 
+    position: relative;
+}
+
+.innerBox {
+    width: 50px;
+    height: 50px;
+    background-color: #292929;
+    position: absolute;    
+}
+
+
+button {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #292929;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+
+// #text {
+//     color: rgb(69, 118, 192);
+// }
+
+// p {
+//     color: rgb(69, 118, 192);
+//     margin: 0;
+// }
+
+// a {
+//     text-decoration: none;
+//     color: rgb(69, 118, 192);
+// } 
