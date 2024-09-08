@@ -33,6 +33,8 @@ const display = document.getElementById('text');
 function getPosition() {
     if (navigator.geolocation) {
         navigator.geolocation.watchPosition(showPosition);
+    } else {
+        alert("Your device is not compitable for this feature!");
     }
 }
 
